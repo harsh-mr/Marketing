@@ -31,7 +31,7 @@ const SocialLinks = () => {
 					target="_blank"
 				>
 					<span className="btn-inner--icon">
-						<i className="fa fa-linkedin" />
+						<i className="fa fa-facebook" />
 					</span>
 				</Button>
 			)}
@@ -77,17 +77,17 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}	
-			{socialLinks.twitter && (
+			{socialLinks.email && (
 				<Button
 					className="btn-icon-only rounded-circle"
 					color="twitter"
-					href={socialLinks.twitter}
+					href={`mailto:`+socialLinks.email}
 					target="_blank"
 					rel="noopener"
-					aria-label="Twitter"
+					aria-label="Email"
 				>
 					<span className="btn-inner--icon">
-						<i className="fa fa-twitter" />
+						<i className="fa fa-envelope" />
 					</span>
 				</Button>
 			)}

@@ -20,7 +20,7 @@ const EducationCard = ({ education }) => {
                 </Badge>
               )}
               <p className="description mt-3"></p>
-              <ul>
+              <ul style={{fontFamily:"monospace"}}>
                 {education.descBullets
                   ? education.descBullets.map((desc) => {
                       return <li key={desc}>{desc}</li>;

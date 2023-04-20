@@ -8,8 +8,15 @@ import { skillsSection } from "../portfolio";
 const Skills = () => {
 	return skillsSection && (
 		<Container className="text-center my-5 section section-lg">
-			<h1 className="h1">{skillsSection.title}</h1>
-			<p className="lead">{skillsSection.subTitle}</p>
+			<h1 className="h1" style={{fontWeight:"bold"}}>{skillsSection.title}</h1>
+			{/* <h1>Our average ROAS BenchMark</h1> */}
+			<p className="lead" style={{margin:0}}><span style={{   fontSize:"2rem"}}>AD spent to revenue ratio :</span><span style={{ color: "#EF14A9", fontWeight:"900",  fontFamily:"monospace",fontSize:"3.3rem"}}>7:1</span> </p>
+			<p className="lead" style={{margin:0}}><span style={{   fontSize:"2rem"}}>Our average ROI(return on investments) :</span><span style={{ color: "#EF14A9", fontWeight:"900",  fontFamily:"monospace",fontSize:"3.3rem"}}>6X</span> </p>
+			<p className="lead" style={{margin:0}}><span style={{   fontSize:"2rem"}}>Conversion rates :</span><span style={{ color: "#EF14A9", fontWeight:"900",  fontFamily:"monospace",fontSize:"3.3rem"}}>25%</span> </p>
+			{/* <p className="lead"> ROI return on investments<p> 6* conversion rates= 25 %</p> </p> */}
+			
+
+		
 			{skillsSection.data.map((section, index) => {
 				return (
 					<Row className="my-5" key={index}>

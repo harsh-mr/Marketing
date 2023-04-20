@@ -2,8 +2,8 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
   name: "ADWord Inc.",
-  title: "Your Trusted Digital Marketing Partner..",
-  description:"The one-stop solution for diversifying your brand or business Whether you are a small startup or large enterprise or creator or willing to start a business that requires digital marketing to achieve your growth in the respective fields.",
+  title: "Looking to boost Your Brand Online Presence and Skyrocket your Revenue?",
+  description:"We help businesses and brands to reach a broader audience and generate massive revenue with increased ROI than ever before.Our service is designed specifically for businesses, startups, entrepreneurs, Influencers, and Personal Brands. With Adspreem by your side, there is no limit to what you achieve.",
   resumeLink: "",
 };
 
@@ -14,15 +14,17 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  instagram: "https://instagram.com/adwordsinc?igshid=ZWIzMWE5ZmU3Zg==",
-  github: "https://github.com/harsh-mr",
+  instagram: "https://www.instagram.com/adspreem/",
+  github: "",
   linkedin: "",
   discord: "",
   blog: "",
+  // facebook: "https://www.facebook.com/profile.php?id=100091625245571",
+  email:"vimal@adspreem.com"
 };
 
 export const skillsSection = {
-  title: "What we do? ",
+  title: "Unlock your Business full potential !! ",
   subTitle: "More than just a digital marketing agency, we are a team of experts who are passionate about helping businesses grow online.",
   data: [
     {

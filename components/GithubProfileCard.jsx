@@ -4,19 +4,20 @@ import { Card, Col, Row, Container } from "reactstrap";
 
 import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
+import img1 from "../Assets/img6.jpg";
 
 const GithubProfileCard = ({ prof }) => {
 	return (
-		<Card className="section-lg bg-gradient-info shadow-lg border-0">
+		<Card className="p-3 pt-5 bg-gradient-info shadow-lg border-0">
 			<Container className="">
-				<div className="p-2">
+				<div className="p-0">
 					<Row className="">
-						<Col className="order-lg-2" lg="4">
+						<Col className="order-lg-2 px-5" lg="4">
 							<img
-								src={prof.avatar_url}
+								src={img1.src}
 								style={{ width: "200px" }}
 								alt=""
-								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
+								className="rounded-circle 1-center 1-fluid shadow shadow-lg--hover mb-4"
 							/>
 						</Col>
 						<Col lg="8" className="order-lg-1">
@@ -28,12 +29,13 @@ const GithubProfileCard = ({ prof }) => {
 							<p className="text-white mt-3">{prof.bio}</p>
 							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
 								<i className="ni ni-pin-3 text-info mr-2" />
-								{prof.location}
+								India
 							</div>
 							<SocialLinks />
 						</Col>
 					</Row>
 				</div>
+					<div style={{display:"flex"}}><p style={{margin:"auto" , fontFamily:"monospace"}}><a style={{textDecoration:"none"}} href="https://github.com/harsh-mr">Built by harsh-mr</a></p></div>
 			</Container>
 		</Card>
 	);

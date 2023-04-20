@@ -84,9 +84,9 @@ export const ContactUs = () => {
               <Col lg="8">
                 <Card className="bg-gradient-secondary shadow">
                   <CardBody className="p-lg-5">
-                    <h4 className="mb-1">Want to work with me?</h4>
-                    <p className="mt-0">
-                      Your project is very important to me.
+                    <h1 className="mb-1"> Lets Connect</h1>
+                    <p className="mt-0 " style={{fontSize:"25px"}}>
+                      To reach new heights !!
                     </p>
                     <FormGroup className={classnames("mt-5", {})}>
                       <InputGroup className="input-group-alternative">
@@ -152,6 +152,8 @@ export const ContactUs = () => {
                       placeholder="What Are You Looking For"
                       name = "lookingFor"
                     >
+                      <option value="" disabled selected hidden>What are you looking for?</option>
+
                       <option value="A Job">A Job</option>
                       <option value="Your Service">Your Service</option>
                       <option value="Business With You">Business With You</option>

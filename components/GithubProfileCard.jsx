@@ -8,7 +8,7 @@ import img1 from "../Assets/img6.jpg";
 
 const GithubProfileCard = ({ prof }) => {
 	return (
-		<Card className="p-3 pt-5 bg-gradient-info shadow-lg border-0">
+		<Card className="p-3 pt-5 bg-gradient-info shadow-lg border-0 " style={{borderRadius:"0px"}}>
 			<Container className="">
 				<div className="p-0">
 					<Row className="">

@@ -21,21 +21,22 @@ const GithubProfileCard = ({ prof }) => {
 							/>
 						</Col>
 						<Col lg="8" className="order-lg-1">
-							<h2 className="text-white">Reach Out to me!</h2>
+							<h2 className="text-white">Reach Out to Us!</h2>
 							<p className="lead text-white mt-3">
-								DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY
+								DISCUSS A PROJECT OR JUST WANT TO SAY HI? OUR
 								INBOX IS OPEN FOR ALL
 							</p>
 							<p className="text-white mt-3">{prof.bio}</p>
+							<SocialLinks />
 							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
 								<i className="ni ni-pin-3 text-info mr-2" />
 								India
 							</div>
-							<SocialLinks />
 						</Col>
 					</Row>
 				</div>
-					<div style={{display:"flex"}}><p style={{margin:"auto" , fontFamily:"monospace"}}><a style={{textDecoration:"none"}} href="https://github.com/harsh-mr">Built by harsh-mr</a></p></div>
+					<div style={{display:"flex"}}><p style={{margin:"auto" ,fontWeight:"bold" , fontFamily:"monospace"}}>All Rights Reserved | All Wrongs Reversed</p></div>
+					<div style={{display:"flex"}}><p style={{margin:"auto" , fontFamily:"monospace",fontWeight:"bold"}}><a style={{textDecoration:"none",color:"currentcolor"}} href="https://github.com/harsh-mr">Developed by harsh-mr</a></p></div>
 			</Container>
 		</Card>
 	);

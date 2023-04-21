@@ -32,7 +32,7 @@ const Greetings = () => {
             <div className="col px-0b ">
               <Row>
                 <Col lg="6 mt-5">
-                  <h1 className="display-3 text-white">
+                  <h1 className="display-3 " >
                     {greetings.title + " "}
                   </h1>
                   <p className="lead text-white">{greetings.description}</p>

@@ -2,8 +2,8 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
   name: "ADWord Inc.",
-  title: "Looking to boost Your Brand Online Presence and Skyrocket your Revenue?",
-  description:"We help businesses and brands to reach a broader audience and generate massive revenue with increased ROI than ever before.Our service is designed specifically for businesses, startups, entrepreneurs, Influencers, and Personal Brands. With Adspreem by your side, there is no limit to what you achieve.",
+  title: "Looking to boost Your Brand's Online Presence and Skyrocket your Revenue?",
+  description:"We help Businesses and Brands to reach a broader audience and generate massive revenue with increased ROI than ever before. Our service is designed specifically for Businesses, Startups, Entrepreneurs, Influencers, and Personal Brands. With Adspreem by your side, there is no limit to what you can achieve.",
   resumeLink: "",
 };
 
@@ -19,12 +19,12 @@ export const socialLinks = {
   linkedin: "",
   discord: "",
   blog: "",
-  // facebook: "https://www.facebook.com/profile.php?id=100091625245571",
+  facebook: "https://www.facebook.com/profile.php?id=100091671026380",
   email:"vimal@adspreem.com"
 };
 
 export const skillsSection = {
-  title: "Unlock your Business full potential !! ",
+  title: "Unlock your Business full potential!! ",
   subTitle: "More than just a digital marketing agency, we are a team of experts who are passionate about helping businesses grow online.",
   data: [
     {

@@ -7,10 +7,10 @@ import { seoData } from "../portfolio";
 function SEO() {
 	return (
 		<Head>
-			<title>{seoData.title}</title>
+			<title>Adspreem : Modern Day Alchemy</title>
 			<meta name="title" content={seoData.title} />
 			<meta name="author" content={seoData.author} />
-			<meta name="description" content={seoData.description} />
+			<meta name="description" content= "We help Businesses and Brands to reach a broader audience and generate massive revenue with increased ROI than ever before. Our service is designed specifically for Businesses, Startups, Entrepreneurs, Influencers, and Personal Brands. With Adspreem by your side, there is no limit to what you can achieve." />
 			<meta name="keywords" content={seoData.keywords.join(", ")} />
 			<link rel="canonical" href={seoData.url} />
 			{/* Open Graph / Facebook */}

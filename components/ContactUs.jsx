@@ -86,7 +86,7 @@ export const ContactUs = () => {
                   <CardBody className="p-lg-5">
                     <h1 className="mb-1"> Lets Connect</h1>
                     <p className="mt-0 " style={{fontSize:"25px"}}>
-                      To reach new heights !!
+                      To reach new heights!!
                     </p>
                     <FormGroup className={classnames("mt-5", {})}>
                       <InputGroup className="input-group-alternative">

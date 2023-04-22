@@ -6,7 +6,7 @@ import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
 import img1 from "../Assets/img6.jpg";
 
-const GithubProfileCard = ({ prof }) => {
+const GithubProfileCard = () => {
 	return (
 		<Card className="p-3 pt-5 bg-gradient-info shadow-lg border-0 " style={{borderRadius:"0px"}}>
 			<Container className="">
@@ -21,13 +21,11 @@ const GithubProfileCard = ({ prof }) => {
 							/>
 						</Col>
 						<Col lg="8" className="order-lg-1">
-							<h2 className="text-white">Reach Out to Us!</h2>
+							<h2 className="text-white">Have a general Enquiry?</h2>
 							<p className="lead text-white mt-3">
-								DISCUSS A PROJECT OR JUST WANT TO SAY HI? OUR
-								INBOX IS OPEN FOR ALL
+								If you have any general enquiry or would like to join our team, You can Contact us via Email : <a href={"mailto:vimal@adspreem.com"} style={{textDecoration:"none", color:"black"}}>vimal@adspreem.com</a>
 							</p>
-							<p className="text-white mt-3">{prof.bio}</p>
-							<SocialLinks />
+
 							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
 								<i className="ni ni-pin-3 text-info mr-2" />
 								India
@@ -35,7 +33,8 @@ const GithubProfileCard = ({ prof }) => {
 						</Col>
 					</Row>
 				</div>
-					<div style={{display:"flex"}}><p style={{margin:"auto" ,fontWeight:"bold" , fontFamily:"monospace"}}>All Rights Reserved | All Wrongs Reversed</p></div>
+					<div style={{display:"flex"}}><p style={{margin:"auto" ,fontWeight:"bold" , fontFamily:"monospace"}}>© 2023 Adspreem</p></div>
+					<div style={{display:"flex"}}><p style={{margin:"auto" ,fontWeight:"bold" , fontFamily:"monospace"}}>All Rights Reserved </p></div>
 					<div style={{display:"flex"}}><p style={{margin:"auto" , fontFamily:"monospace",fontWeight:"bold"}}><a style={{textDecoration:"none",color:"currentcolor"}} href="https://github.com/harsh-mr">Developed by harsh-mr</a></p></div>
 			</Container>
 		</Card>

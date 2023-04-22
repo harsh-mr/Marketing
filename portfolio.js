@@ -19,7 +19,7 @@ export const socialLinks = {
   linkedin: "",
   discord: "",
   blog: "",
-  facebook: "https://www.facebook.com/profile.php?id=100091671026380",
+  facebook: "https://www.facebook.com/adspreem/",
   email:"vimal@adspreem.com"
 };
 
@@ -121,7 +121,7 @@ export const educationInfo = [
 "Stay ahead of the competition - As more businesses adopt digital marketing, it's important to stay competitive by keeping up with industry trends and best practices.",
 
     ],
-    github: "https://github.com/BrendanGlancy/akron/",
+    github: "",
   },
   
 ];
@@ -155,7 +155,7 @@ export const feedbacks = [
 export const seoData = {
   title: "Adspreem",
   description: "Adspreem is the only Alchemy for you",
-  image: "https://avatars.githubusercontent.com/u/61941978?v=4",
+  image: "https://scontent.fdel21-1.fna.fbcdn.net/v/t39.30808-6/342838867_763360815252011_6850272162965907462_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=0g8uy-F0W5oAX_Ne6V7&_nc_oc=AQnrmswFNCEMy-ZH70dLJcnL8L-n3e-pBdjob-IjywJQlxBTX7nivHAM21NH1Dzey8w&_nc_ht=scontent.fdel21-1.fna&oh=00_AfAUWuaY3-3bFqpAnK9FmINHC7jGt6ZIASnb8cQV2hWxcA&oe=644891E2",
   url: "https://www.adspreem.com/",
   keywords: [
     "Adspreem",

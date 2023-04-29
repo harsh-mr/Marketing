@@ -23,7 +23,9 @@ const GithubProfileCard = () => {
 						<Col lg="8" className="order-lg-1">
 							<h2 className="text-white">Have a general Enquiry?</h2>
 							<p className="lead text-white mt-3">
-								If you have any general enquiry or would like to join our team, You can Contact us via Email : <a href={"mailto:vimal@adspreem.com"} style={{textDecoration:"none", color:"black"}}>vimal@adspreem.com</a>
+								If you have any general enquiry or would like to join our team, You can Contact us via Email : <a href={"mailto:vimal@adspreem.com"} style={{textDecoration:"none", color:"black"}}><span className="btn-inner--icon">
+						<i className="fa fa-envelope" />
+					</span></a>
 							</p>
 
 							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
